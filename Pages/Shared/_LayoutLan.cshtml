@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" class="h-full" data-nav-layout="horizontal" data-nav-style="menu-click" data-menu-position="fixed">
+    
+    <head>
+
+        <!-- META DATA -->
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Spruko Technologies Private Limited">
+        <meta name="Description" content="ASP.NET Core7 Tailwind CSS Admin & Dashboard Template">
+        <meta name="keywords" content="asp net, asp net mvc, dotnet, tailwind template, admin, asp, framework dotnet, dashboard, tailwind, admin dashboard, template dashboard, admin panel template, admin dashboard template, asp net core mvc, net mvc">
+
+        <!-- TITLE -->
+		<title>@ViewData["Title"]YNEX - ASP.NET Core7 Tailwind CSS Admin & Dashboard Template </title>
+
+        <!-- FAVICON -->
+        <link rel="icon" href="@Url.Content("~/assets/images/brand-logos/favicon.ico")" type="image/x-icon">
+
+        <!-- ICONS CSS -->
+	    <link  id="style" href="@Url.Content("~/assets/css/icons.css")" rel="stylesheet">
+
+        <!-- STYLES CSS -->
+        <link href="@Url.Content("~/assets/css/style.css")" rel="stylesheet">
+
+        <partial name="~/Pages/Shared/Layouts/_styles.cshtml">
+
+        <!-- MAIN JS -->
+        <script src="@Url.Content("~/assets/js/main.js")"></script>
+
+        @await RenderSectionAsync("Styles", required: false)
+
+	</head>
+
+	<body class="landing-body">
+
+        <!-- SWITCHER -->
+        <partial name="~/Pages/Shared/Layouts/landing/_switcher.cshtml">
+        <!-- END SWITCHER -->
+
+        <!-- PAGE -->
+        <div class="landing-page-wrapper">
+
+            <!-- HEADER -->
+            <partial name="~/Pages/Shared/Layouts/landing/_header.cshtml">
+            <!-- END HEADER -->
+
+            <!-- SIDEBAR -->
+            <partial name="~/Pages/Shared/Layouts/landing/_sidebar.cshtml">
+            <!-- END SIDEBAR -->
+
+            <!-- MAIN-CONTENT -->
+            <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
+
+                @RenderBody()
+
+                    <!-- FOOTER -->
+                    <partial name="~/Pages/Shared/Layouts/landing/_footer.cshtml">
+                    <!-- END FOOTER -->
+
+            </div> 
+            <!-- END MAIN-CONTENT -->
+
+		</div>
+        <!-- END PAGE-->
+
+        <!-- SCRIPTS -->
+
+        <partial name="~/Pages/Shared/Layouts/landing/_scripts.cshtml">
+
+        @await RenderSectionAsync("Scripts", required: false)
+
+        <!-- STICKY JS -->
+		<script src="@Url.Content("~/assets/js/sticky.js")"></script>
+
+        <!-- END SCRIPTS -->
+
+	</body>
+</html>

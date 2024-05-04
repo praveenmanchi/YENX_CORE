@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-nav-layout="vertical" class="light" data-menu-styles="dark">
+
+    <head>
+
+        <!-- META DATA -->
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Spruko Technologies Private Limited">
+        <meta name="Description" content="Ynex - ASP.NET Core7 Tailwind CSS Admin & Dashboard Template">
+        <meta name="keywords" content="asp net, asp net mvc, dotnet, tailwind template, admin, asp, framework dotnet, dashboard, tailwind, admin dashboard, template dashboard, admin panel template, admin dashboard template, asp net core mvc, net mvc">
+
+        <!-- TITLE -->
+		<title>@ViewData["Title"]Ynex - ASP.NET Core7 Tailwind CSS Admin & Dashboard Template </title>
+
+        <!-- FAVICON -->
+        <link rel="icon" href="@Url.Content("~/assets/images/brand-logos/favicon.ico")" type="image/x-icon">
+
+        <!-- ICONS CSS -->
+	    <link  id="style" href="@Url.Content("~/assets/css/icons.css")" rel="stylesheet">
+
+        <!-- STYLES CSS -->
+        <link href="@Url.Content("~/assets/css/style.css")" rel="stylesheet">
+
+        <partial name="~/Pages/Shared/Layouts/_styles.cshtml">
+
+        <!-- MAIN JS -->
+        <script src="@Url.Content("~/assets/js/main.js")"></script>
+
+        @await RenderSectionAsync("Styles", required: false)
+	</head>
+
+	<body>
+
+        <!-- SWITCHER -->
+        <partial name="~/Pages/Shared/Layouts/_switcher.cshtml">
+        <!-- END SWITCHER -->
+
+        <!-- LOADER -->
+		<div id="loader">
+			<img src="@Url.Content("~/assets/images/media/loader.svg")" alt="">
+		</div>
+		<!-- END LOADER -->
+
+        <!-- PAGE -->
+		<div class="page">
+
+            <!-- HEADER -->
+            <partial name="~/Pages/Shared/Layouts/_header.cshtml">
+            <!-- END HEADER -->
+
+            <!-- SIDEBAR -->
+            <partial name="~/Pages/Shared/Layouts/_sidebar.cshtml">
+            <!-- END SIDEBAR -->
+
+            <!-- MAIN-CONTENT -->
+            <div class="content">
+                <div class="main-content">
+                    @RenderBody()
+                </div>
+            </div> 
+            <!-- END MAIN-CONTENT -->
+
+            <!-- SEARCH-MODAL -->
+            <partial name="~/Pages/Shared/Layouts/_search-modal.cshtml">
+            <!-- END SEARCH-MODAL -->
+
+            <!-- FOOTER -->
+            <partial name="~/Pages/Shared/Layouts/_footer.cshtml">
+            <!-- END FOOTER -->
+
+		</div>
+        <!-- END PAGE-->
+
+        <!-- SCRIPTS -->
+        <partial name="~/Pages/Shared/Layouts/_scripts.cshtml">
+
+        @await RenderSectionAsync("Scripts", required: false)
+
+        <!-- STICKY JS -->
+		<script src="@Url.Content("~/assets/js/sticky.js")"></script>
+
+        <!-- CUSTOM JS -->
+        <script src="@Url.Content("~/assets/js/custom.js")"></script>
+
+        <!-- CUSTOM-SWITCHER JS -->
+        <script src="@Url.Content("~/assets/js/custom-switcher.js")"></script>
+
+        <!-- END SCRIPTS -->
+
+	</body>
+</html>
