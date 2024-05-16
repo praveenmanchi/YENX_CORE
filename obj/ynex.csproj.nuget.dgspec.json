@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FINALS\\21-12-2023\\ynex-tailwind-dotnet\\final\\core\\ynex\\ynex.csproj": {}
+    "/Users/praveenmanchi/Desktop/YENX_CORE/ynex.csproj": {}
   },
   "projects": {
-    "D:\\FINALS\\21-12-2023\\ynex-tailwind-dotnet\\final\\core\\ynex\\ynex.csproj": {
+    "/Users/praveenmanchi/Desktop/YENX_CORE/ynex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FINALS\\21-12-2023\\ynex-tailwind-dotnet\\final\\core\\ynex\\ynex.csproj",
+        "projectUniqueName": "/Users/praveenmanchi/Desktop/YENX_CORE/ynex.csproj",
         "projectName": "ynex",
-        "projectPath": "D:\\FINALS\\21-12-2023\\ynex-tailwind-dotnet\\final\\core\\ynex\\ynex.csproj",
-        "packagesPath": "C:\\Users\\SPE-15\\.nuget\\packages\\",
-        "outputPath": "D:\\FINALS\\21-12-2023\\ynex-tailwind-dotnet\\final\\core\\ynex\\obj\\",
+        "projectPath": "/Users/praveenmanchi/Desktop/YENX_CORE/ynex.csproj",
+        "packagesPath": "/Users/praveenmanchi/.nuget/packages/",
+        "outputPath": "/Users/praveenmanchi/Desktop/YENX_CORE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SPE-15\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/praveenmanchi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
