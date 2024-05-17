@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ynex")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d89a53058e6ce05f1c1550198976ea31c0b9627")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad30b7fb22d2ca6a8ed03803516e75e79af5d670")]
 [assembly: System.Reflection.AssemblyProductAttribute("ynex")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ynex")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
