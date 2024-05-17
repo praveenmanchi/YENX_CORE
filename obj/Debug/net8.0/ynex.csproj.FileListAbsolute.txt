@@ -105,3 +105,10 @@ D:/FINALS/21-12-2023/ynex-tailwind-dotnet/final/core/ynex/obj/Debug/net8.0/ref/y
 /Users/praveenmanchi/Desktop/YENX_CORE/output/ynex.runtimeconfig.json
 /Users/praveenmanchi/Desktop/YENX_CORE/output/ynex.dll
 /Users/praveenmanchi/Desktop/YENX_CORE/output/ynex.pdb
+/Users/praveenmanchi/Desktop/YENX_CORE/bin/Debug/net8.0/output/appsettings.Development.json
+/Users/praveenmanchi/Desktop/YENX_CORE/bin/Debug/net8.0/output/appsettings.json
+/Users/praveenmanchi/Desktop/YENX_CORE/bin/Debug/net8.0/output/package-lock.json
+/Users/praveenmanchi/Desktop/YENX_CORE/bin/Debug/net8.0/output/package.json
+/Users/praveenmanchi/Desktop/YENX_CORE/bin/Debug/net8.0/output/ynex.deps.json
+/Users/praveenmanchi/Desktop/YENX_CORE/bin/Debug/net8.0/output/ynex.runtimeconfig.json
+/Users/praveenmanchi/Desktop/YENX_CORE/bin/Debug/net8.0/output/ynex.staticwebassets.runtime.json
